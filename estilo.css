@@ -1,0 +1,137 @@
+body {
+  background-image: url(images/fondo.gif);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Título de la página web */
+h1 {
+  color: rgb(244, 180, 21);
+  float: left;
+  padding: 0px 20px 20px 10px;
+  text-shadow: 2px 2px 2px black;
+  font-size: 60px;
+  margin: 0px;
+}
+
+/* Barra de navegacion */
+nav ul {
+  background-image: url(images/fondomenu.png);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.menucafe {
+  border: 1px solid rgb(57, 39, 9);
+  text-decoration-line: none;
+  width: 1300px;
+  height: 50px;
+  background-color: rgb(57, 39, 9);
+}
+/*Lista de la barra de navegación*/
+.menucafe li {
+  list-style-type: none;
+  margin: 15px 15px;
+  float: left;
+  height: 24px;
+  width: 15%;
+}
+.menucafe a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  font-size: 25px;
+}
+.menucafe a:hover {
+  color: rgb(233, 176, 84);
+}
+
+/*Imagen principal*/
+#banner img {
+  width: 1330px;
+  height: 400px;
+  text-align: justify;
+  z-index: 1;
+}
+/*Texto dentro de la imagen principal*/
+#banner h2 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-align: left;
+  position: absolute;
+  top: 200px;
+  left: 110px;
+  z-index: 3;
+  width: auto;
+}
+#banner p {
+  color: rgb(222, 175, 58);
+  font-size: 25px;
+  margin: 120px 0px 0px 80px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  text-align: justify;
+}
+
+/* contenedor general de cafés */
+ul.columna {
+  background-color: white;
+  border: 25px solid white;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
+/* Contenedor de cafés */
+.cuadro {
+  width: 295px;
+  height: 400px;
+  background-color: rgb(233, 176, 84);
+  border: 6px solid white;
+  text-align: center;
+  border-radius: 15px;
+}
+/* imagenes de cafes */
+.cuadro img {
+  border: 5px solid white;
+  margin-top: 20px;
+}
+/* titulo de cafes */
+h2 a {
+  color: white;
+}
+/* Descripcion de cafes */
+p {
+  font-size: 18px;
+  text-align: justify;
+  margin: 15px;
+}
+
+/* Formulario */
+#formulario {
+  height: 380px;
+  background-color: rgb(174, 139, 13);
+  border-radius: 10px;
+  float: right;
+  width: 290px;
+}
+/* Pie de pagina */
+footer {
+  background-image: url(images/fondomenu.png);
+  color: white;
+  padding: 10px 10px 5px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+footer section {
+  width: 30%;
+  height: 10%;
+}
